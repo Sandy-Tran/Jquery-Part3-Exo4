@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $(".height").click(function(){
+        $(".green").css({"height":"+=20px"});
+    })
+    $(".shrink").click(function(){
+        $(".green").css({"height":"-=20px"});
+    })
+    $(".hide").click(function(){
+        $(".green").hide();
+    })
+    $(".show").click(function(){
+        $(".green").show();
+    })
+    $(".color").click(function(){
+        $(".green").css("background-color","pink");
+    })
+    $(".back").click(function(){
+        $(".green").css("background-color","purple");
+    })
+})
